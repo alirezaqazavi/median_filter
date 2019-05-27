@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\NP\Desktop\AZ_FPGA\Lab7\median_qazavi\top.ncd
+OUTFILE=C:\Users\NP\Desktop\AZ_FPGA\Lab7\median_qazavi\top.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\NP\Desktop\AZ_FPGA\Lab7\median_qazavi
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri May 17 20:14:55 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "VGA_B<0>" LOCATE = SITE "P83" LEVEL 1;
+COMP "VGA_B<1>" LOCATE = SITE "P84" LEVEL 1;
+COMP "VGA_G<0>" LOCATE = SITE "P81" LEVEL 1;
+COMP "VGA_G<1>" LOCATE = SITE "P82" LEVEL 1;
+COMP "VGA_R<0>" LOCATE = SITE "P79" LEVEL 1;
+COMP "VGA_R<1>" LOCATE = SITE "P80" LEVEL 1;
+COMP "clk" LOCATE = SITE "P50" LEVEL 1;
+COMP "o_hs" LOCATE = SITE "P87" LEVEL 1;
+COMP "o_vs" LOCATE = SITE "P85" LEVEL 1;
+SCHEMATIC END;
+

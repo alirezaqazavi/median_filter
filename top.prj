@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/clocking_wizard.v"
+verilog work "vga640x480.v"
+verilog work "ipcore_dir/PIC_ROM.v"
+verilog work "top.v"

@@ -1,0 +1,16 @@
+
+
+NET "clk" LOC = P50;
+//NET "VGA_HS_O" LOC = P87;
+//NET "VGA_VS_O" LOC = P85;
+NET "VGA_B[1]" LOC = P84;
+NET "VGA_B[0]" LOC = P83;
+NET "VGA_G[1]" LOC = P82;
+NET "VGA_G[0]" LOC = P81;
+NET "VGA_R[1]" LOC = P80;
+NET "VGA_R[0]" LOC = P79;
+
+# PlanAhead Generated physical constraints 
+
+NET "o_hs" LOC = P87;
+NET "o_vs" LOC = P85;

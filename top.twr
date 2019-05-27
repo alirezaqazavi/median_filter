@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+H:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+VGA_B<0>    |         5.170(R)|      SLOW  |         2.982(R)|      FAST  |clk25             |   0.000|
+VGA_B<1>    |         5.667(R)|      SLOW  |         3.281(R)|      FAST  |clk25             |   0.000|
+VGA_G<0>    |         5.536(R)|      SLOW  |         3.216(R)|      FAST  |clk25             |   0.000|
+VGA_G<1>    |         5.324(R)|      SLOW  |         3.104(R)|      FAST  |clk25             |   0.000|
+VGA_R<0>    |         5.883(R)|      SLOW  |         3.423(R)|      FAST  |clk25             |   0.000|
+VGA_R<1>    |         5.694(R)|      SLOW  |         3.334(R)|      FAST  |clk25             |   0.000|
+o_hs        |         6.555(R)|      SLOW  |         3.535(R)|      FAST  |clk25             |   0.000|
+o_vs        |         6.394(R)|      SLOW  |         3.279(R)|      FAST  |clk25             |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   10.315|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri May 17 20:15:09 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4573 MB
+
+
+
